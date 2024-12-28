@@ -25,7 +25,7 @@ const Hero = () => {
   }, [cursorPosition]);
 
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden">
+    <section className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden" id="home">
       {/* Intense Light Glow Effect */}
       <div
         className="absolute pointer-events-none"
@@ -89,7 +89,7 @@ const Hero = () => {
           {/* Add your SVG path here */}
         </svg>
       </div>
-    </div>
+    </section>
   );
 };
 
