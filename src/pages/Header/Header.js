@@ -34,7 +34,8 @@ const Hero = () => {
           height: "300px",
           left: `${lightPosition.x - 150}px`,
           top: `${lightPosition.y - 150}px`,
-          background: "radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.1) 80%, rgba(255,255,255,0) 100%)",
+          background:
+            "radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.1) 80%, rgba(255,255,255,0) 100%)",
           mixBlendMode: "screen", // More vivid effect
           filter: "blur(50px)", // Increased blur for intense diffusion
         }}
@@ -56,7 +57,16 @@ const Hero = () => {
         Host n Stream
       </small>
 
-      <a href="https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0" className="">Learn More</a>
+      <button
+        onClick={() =>
+          window.location.assign(
+            "https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0"
+          )
+        }
+        className="z-50 px-8 py-4 bg-[#34D399] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
+      >
+        Hubungi Kami
+      </button>
 
       {/* Bottom Right Text */}
       <small className="absolute bottom-10 right-10 text-sm text-gray-500 z-10">
