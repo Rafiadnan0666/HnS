@@ -82,6 +82,63 @@ const Whyus = () => {
         </ul>
       </div>
 
+      {/* Pricing Plans */}
+      <div className="relative z-10 mt-16 max-w-5xl text-center">
+        <h3 className="text-4xl font-bold text-gray-100 mb-6">
+          Paket Harga Kami
+        </h3>
+        <div className="grid grid-cols-1 align-middle  md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Plan: Per Jam */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Jam</h4>
+            <p className="text-lg text-gray-100">Rp 25.000</p>
+            <hr className="my-4 border-gray-700" />
+            <ul className="text-gray-400 text-sm leading-loose">
+              <li>Durasi: Bebas Pilih</li>
+              <li>Talent dapat dipesan per jam sesuai kebutuhan.</li>
+            </ul>
+          </div>
+
+          {/* Plan: Per Sesi */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Sesi</h4>
+            <p className="text-lg text-gray-100">Rp 80.000</p>
+            <hr className="my-4 border-gray-700" />
+            <ul className="text-gray-400 text-sm leading-loose">
+              <li>1 sesi = 4 jam kerja</li>
+              <li>Tersedia 3 sesi:</li>
+              <li>- Sesi 1: 08:00 WIB - 12:00 WIB</li>
+              <li>- Sesi 2: 12:00 WIB - 16:00 WIB</li>
+              <li>- Sesi 3: 18:00 WIB - 22:00 WIB</li>
+            </ul>
+          </div>
+
+          {/* Plan: Per Hari */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Hari</h4>
+            <p className="text-lg text-gray-100">Rp 230.000</p>
+            <hr className="my-4 border-gray-700" />
+            <ul className="text-gray-400 text-sm leading-loose">
+              <li>Durasi: 1 hari = 12 jam kerja</li>
+              <li>Talent bekerja penuh selama 12 jam dalam sehari.</li>
+            </ul>
+          </div>
+
+          {/* Plan: Per Bulan */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+            <h4 className="text-2xl font-bold text-[#34D399] mb-4">
+              Per Bulan
+            </h4>
+            <p className="text-lg text-gray-100">Rp 6.849.000</p>
+            <hr className="my-4 border-gray-700" />
+            <ul className="text-gray-400 text-sm leading-loose">
+              <li>Durasi: 1 bulan = 30 hari kerja</li>
+              <li>Talent bekerja selama 30 hari dalam sebulan.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       {/* Call to Action */}
       <div className="relative z-10 mt-16 text-center">
         <h3 className="text-3xl font-bold text-[#34D399] mb-4">
