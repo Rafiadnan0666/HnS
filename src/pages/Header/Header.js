@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -9,17 +9,17 @@ const Hero = () => {
       setCursorPosition({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
 
     const blobFollow = setInterval(() => {
       setBlobPosition((prev) => ({
-        x: prev.x + (cursorPosition.x - prev.x) * 0.1,
-        y: prev.y + (cursorPosition.y - prev.y) * 0.1,
+        x: prev.x + (cursorPosition.x - prev.x) * 0.2,
+        y: prev.y + (cursorPosition.y - prev.y) * 0.2,
       }));
     }, 16);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
       clearInterval(blobFollow);
     };
   }, [cursorPosition]);
@@ -28,31 +28,25 @@ const Hero = () => {
     <div className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden">
       {/* Blob */}
       <div
-        className="absolute w-[350px] h-[350px] rounded-full opacity-70 pointer-events-none"
+        className="absolute rounded-full pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, #bfbfbf, #7f7f7f)',
-          left: `${blobPosition.x - 175}px`,
-          top: `${blobPosition.y - 175}px`,
+          width: "100px",
+          height: "100px",
+          background: "white",
+          left: `${blobPosition.x - 50}px`,
+          top: `${blobPosition.y - 50}px`,
+          mixBlendMode: "difference", // Key to creating the "area turn" effect
         }}
       ></div>
 
-      {/* Line Renderer */}
-      <svg
-        className="absolute w-full h-full pointer-events-none"
-        xmlns="http://www.w3.org/2000/svg"
+      {/* Center Text with Mask Effect */}
+      <h1
+        className="text-[18rem] font-bold tracking-wider text-gray-100 z-10"
+        style={{
+          position: "relative",
+          mixBlendMode: "difference", // Works with the blob to invert colors
+        }}
       >
-        <line
-          x1={cursorPosition.x}
-          y1={cursorPosition.y}
-          x2={blobPosition.x}
-          y2={blobPosition.y}
-          stroke="#4f4f4f"
-          strokeWidth="3"
-        />
-      </svg>
-
-      {/* Center HnS */}
-      <h1 className="text-[18rem] font-bold tracking-wider text-gray-100 z-10">
         HnS
       </h1>
 
@@ -66,23 +60,30 @@ const Hero = () => {
         Live Streaming Host Service
       </small>
 
-      {/* Learn More Button */}
-      <div className="mt-10 z-10">
-        <button className="relative inline-block px-10 py-4 text-lg font-medium group">
-          {/* Pulsating Glow */}
-          <span className="absolute inset-0 w-full h-full transition-transform transform scale-100 bg-gray-500 opacity-20 group-hover:scale-125 animate-pulse"></span>
-          {/* Border Effect */}
-          <span className="absolute inset-0 w-full h-full border border-gray-500 group-hover:border-gray-300 transition-all duration-300 ease-out"></span>
-          {/* Text Animation */}
-          <span className="relative text-gray-400 group-hover:text-gray-100 transition-all duration-300 ease-out group-hover:animate-bounce">
-            Learn More
-          </span>
-        </button>
+   
+      <div className="absolute bottom-0 w-full h-[40vh]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="w-full h-full"
+          style={{
+            transform: `translateX(${(cursorPosition.x - window.innerWidth / 2) * 0.05}px)`,
+            transition: "transform 0.1s ease-out",
+          }}
+        >
+          {/* <path
+            fill="url(#grayGradient)"
+            fillOpacity="1"
+            d="M0,128L40,138.7C80,149,160,171,240,160C320,149,400,107,480,85.3C560,64,640,64,720,80C800,96,880,128,960,154.7C1040,181,1120,203,1200,208C1280,213,1360,203,1400,197.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          /> */}
+          <defs>
+            {/* <linearGradient id="grayGradient" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stopColor="#d1d1d1" />
+              <stop offset="100%" stopColor="#6c6c6c" />
+            </linearGradient> */}
+          </defs>
+        </svg>
       </div>
-
-      {/* Decorative Lines */}
-      <div className="absolute top-10 right-10 w-16 h-2 bg-gray-400 transform rotate-12 opacity-90"></div>
-      <div className="absolute bottom-10 left-10 w-16 h-2 bg-gray-400 transform -rotate-12 opacity-90"></div>
     </div>
   );
 };
