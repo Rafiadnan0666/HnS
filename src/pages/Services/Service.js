@@ -39,6 +39,7 @@ const Service = () => {
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
+          border: "10px solid #ff69b4",
           background: "radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.05) 70%, rgba(255,255,255,0) 100%)",
           mixBlendMode: "screen",
           filter: "blur(120px)",

@@ -56,6 +56,8 @@ const Hero = () => {
         Host n Stream
       </small>
 
+      <a href="https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0" className="">Learn More</a>
+
       {/* Bottom Right Text */}
       <small className="absolute bottom-10 right-10 text-sm text-gray-500 z-10">
         Live Streaming Host Service
