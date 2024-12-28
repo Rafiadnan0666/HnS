@@ -25,13 +25,14 @@ const Hero = () => {
   }, [cursorPosition]);
 
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-900 text-white font-poppins overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden">
       {/* Blob */}
       <div
-        className="absolute w-[300px] h-[300px] bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-3xl opacity-50 pointer-events-none"
+        className="absolute w-[350px] h-[350px] rounded-full opacity-70 pointer-events-none"
         style={{
-          left: `${blobPosition.x - 150}px`,
-          top: `${blobPosition.y - 150}px`,
+          background: 'radial-gradient(circle, #bfbfbf, #7f7f7f)',
+          left: `${blobPosition.x - 175}px`,
+          top: `${blobPosition.y - 175}px`,
         }}
       ></div>
 
@@ -45,41 +46,43 @@ const Hero = () => {
           y1={cursorPosition.y}
           x2={blobPosition.x}
           y2={blobPosition.y}
-          stroke="rgba(255,255,255,0.3)"
-          strokeWidth="2"
+          stroke="#4f4f4f"
+          strokeWidth="3"
         />
       </svg>
 
       {/* Center HnS */}
-      <h1 className="text-[15rem] font-bold tracking-wide text-white z-10">HnS</h1>
+      <h1 className="text-[18rem] font-bold tracking-wider text-gray-100 z-10">
+        HnS
+      </h1>
 
       {/* Top Left Text */}
-      <small className="absolute top-5 left-5 text-xs text-gray-400 z-10">
+      <small className="absolute top-10 left-10 text-sm text-gray-500 z-10">
         Host n Stream
       </small>
 
       {/* Bottom Right Text */}
-      <small className="absolute bottom-5 right-5 text-xs text-gray-400 z-10">
+      <small className="absolute bottom-10 right-10 text-sm text-gray-500 z-10">
         Live Streaming Host Service
       </small>
 
       {/* Learn More Button */}
       <div className="mt-10 z-10">
-        <button className="relative inline-block px-8 py-3 text-lg font-medium group">
+        <button className="relative inline-block px-10 py-4 text-lg font-medium group">
           {/* Pulsating Glow */}
-          <span className="absolute inset-0 w-full h-full transition-transform transform scale-100 bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 blur-lg group-hover:scale-125 animate-pulse"></span>
-          {/* Expanding Border */}
-          <span className="absolute inset-0 w-full h-full border border-gray-300 group-hover:border-blue-400 transition-all duration-300 ease-out"></span>
+          <span className="absolute inset-0 w-full h-full transition-transform transform scale-100 bg-gray-500 opacity-20 group-hover:scale-125 animate-pulse"></span>
+          {/* Border Effect */}
+          <span className="absolute inset-0 w-full h-full border border-gray-500 group-hover:border-gray-300 transition-all duration-300 ease-out"></span>
           {/* Text Animation */}
-          <span className="relative text-gray-300 group-hover:text-white transition-all duration-300 ease-out group-hover:animate-bounce">
+          <span className="relative text-gray-400 group-hover:text-gray-100 transition-all duration-300 ease-out group-hover:animate-bounce">
             Learn More
           </span>
         </button>
       </div>
 
       {/* Decorative Lines */}
-      <div className="absolute top-5 right-5 w-16 h-1 bg-white transform rotate-12 blur-sm opacity-75"></div>
-      <div className="absolute bottom-5 left-5 w-16 h-1 bg-white transform -rotate-12 blur-sm opacity-75"></div>
+      <div className="absolute top-10 right-10 w-16 h-2 bg-gray-400 transform rotate-12 opacity-90"></div>
+      <div className="absolute bottom-10 left-10 w-16 h-2 bg-gray-400 transform -rotate-12 opacity-90"></div>
     </div>
   );
 };
