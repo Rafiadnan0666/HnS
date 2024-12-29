@@ -30,14 +30,14 @@ const Hero = () => {
       <div
         className="absolute pointer-events-none"
         style={{
-          width: "300px",
-          height: "300px",
+          width: "100px",
+          height: "100px",
           left: `${lightPosition.x - 150}px`,
           top: `${lightPosition.y - 150}px`,
           background:
             "radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.1) 80%, rgba(255,255,255,0) 100%)",
-          mixBlendMode: "screen", // More vivid effect
-          filter: "blur(50px)", // Increased blur for intense diffusion
+          mixBlendMode: "screen", 
+          filter: "blur(50px)", 
         }}
       ></div>
 
@@ -60,7 +60,7 @@ const Hero = () => {
       <button
         onClick={() =>
           window.location.assign(
-            "https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0"
+            "https://api.whatsapp.com/send/?phone=+082227782062&text=Halo, HnS Agency! Saya tertarik menggunakan jasa talent host dari HnS Agency untuk kebutuhan live streaming. Apakah saya bisa mendapatkan informasi lebih lanjut?&type=phone_number&app_absent=0"
           )
         }
         className="z-50 px-8 py-4 bg-[#34D399] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"

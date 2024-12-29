@@ -38,9 +38,9 @@ const Whyus = () => {
       </div>
 
       {/* Features */}
-      <div className=" flex align-middle items-center z-10 flex-grow grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl px-6">
+      <div className=" flex align-middle items-center z-10 flex-grow grid-cols-1 sm:block sm:flex-col mx-5 md:grid-cols-3 gap-8 mt-12 max-w-6xl px-6">
         {/* Feature 1 */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
+        <div className="bg-gray-800 mx-5 mt-10 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
           <h3 className="text-2xl font-bold text-gray-100 mb-2">
             Host Berpengalaman
           </h3>
@@ -51,7 +51,7 @@ const Whyus = () => {
         </div>
 
         {/* Feature 2 */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
+        <div className="bg-gray-800 mx-5 mt-10 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
           <h3 className="text-2xl font-bold text-gray-100 mb-2">
             Fleksibilitas & Kustomisasi
           </h3>
@@ -62,7 +62,7 @@ const Whyus = () => {
         </div>
 
         {/* Feature 3 */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
+        <div className="bg-gray-800 mx-5 mt-10 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
           <h3 className="text-2xl font-bold text-gray-100 mb-2">
             Komitmen Profesional
           </h3>
@@ -87,7 +87,7 @@ const Whyus = () => {
         <h3 className="text-4xl font-bold text-gray-100 mb-6">
           Paket Harga Kami
         </h3>
-        <div className="grid grid-cols-1 align-middle  md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 align-middle sm:block grid-cols-4 mt-10  md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Plan: Per Jam */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
             <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Jam</h4>
