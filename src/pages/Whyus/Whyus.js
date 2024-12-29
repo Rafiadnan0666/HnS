@@ -28,7 +28,11 @@ const Whyus = () => {
         <h2 className="text-6xl font-bold text-gray-100 mb-6">
           Why Choose <span className="text-[#34D399]">HnS Agency</span>?
         </h2>
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-400 leading-relaxed">
           Host n Stream (HnS) Agency adalah layanan penyedia talent host
           profesional untuk kebutuhan live streaming e-commerce dan online shop
           Anda. Kami menghadirkan host berbakat, berpengalaman, dan berkomitmen
@@ -44,7 +48,11 @@ const Whyus = () => {
           <h3 className="text-2xl font-bold text-gray-100 mb-2">
             Host Berpengalaman
           </h3>
-          <p className="text-gray-400 leading-relaxed">
+          <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-gray-400 leading-relaxed">
             Semua talent kami terlatih dalam teknik komunikasi, penjualan, dan
             penguasaan produk.
           </p>
@@ -52,10 +60,14 @@ const Whyus = () => {
 
         {/* Feature 2 */}
         <div className="bg-gray-800 mx-5 mt-10 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
-          <h3 className="text-2xl font-bold text-gray-100 mb-2">
+          <h3  className="text-2xl font-bold text-gray-100 mb-2">
             Fleksibilitas & Kustomisasi
           </h3>
-          <p className="text-gray-400 leading-relaxed">
+          <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-gray-400 leading-relaxed">
             Talent kami dapat menyesuaikan gaya penyampaian sesuai target
             audiens Anda.
           </p>
@@ -63,10 +75,14 @@ const Whyus = () => {
 
         {/* Feature 3 */}
         <div className="bg-gray-800 mx-5 mt-10 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
-          <h3 className="text-2xl font-bold text-gray-100 mb-2">
+          <h3  className="text-2xl font-bold text-gray-100 mb-2">
             Komitmen Profesional
           </h3>
-          <p className="text-gray-400 leading-relaxed">
+          <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-gray-400 leading-relaxed">
             Kami memastikan performa optimal di setiap sesi live streaming Anda.
           </p>
         </div>
@@ -76,51 +92,111 @@ const Whyus = () => {
       <div className="relative z-10 mt-16 max-w-5xl text-center">
         <h3 className="text-4xl font-bold text-gray-100 mb-6">Layanan Kami</h3>
         <ul className="text-gray-400 text-lg leading-relaxed">
-          <li>Penyediaan talent host live streaming untuk e-commerce.</li>
-          <li>Pelatihan dan konsultasi strategi live streaming.</li>
-          <li>Solusi kreatif untuk meningkatkan engagement audiens.</li>
+          <li  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Penyediaan talent host live streaming untuk e-commerce.</li>
+          <li  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Pelatihan dan konsultasi strategi live streaming.</li>
+          <li  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Solusi kreatif untuk meningkatkan engagement audiens.</li>
         </ul>
       </div>
 
       {/* Pricing Plans */}
       <div className="relative z-10 mt-16 max-w-5xl text-center">
-        <h3 className="text-4xl font-bold text-gray-100 mb-6">
+        <h3  className="text-4xl font-bold text-gray-100 mb-6">
           Paket Harga Kami
         </h3>
         <div className="grid grid-cols-1 align-middle sm:block grid-cols-4 mt-10  md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Plan: Per Jam */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Jam</h4>
-            <p className="text-lg text-gray-100">Rp 25.000</p>
+            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Jam</h4>
+            <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-100">Rp 25.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
-              <li>Durasi: Bebas Pilih</li>
-              <li>Talent dapat dipesan per jam sesuai kebutuhan.</li>
+              <li  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Durasi: Bebas Pilih</li>
+              <li  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Talent dapat dipesan per jam sesuai kebutuhan.</li>
             </ul>
           </div>
 
           {/* Plan: Per Sesi */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Sesi</h4>
-            <p className="text-lg text-gray-100">Rp 80.000</p>
+            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Sesi</h4>
+            <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-100">Rp 80.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
-              <li>1 sesi = 4 jam kerja</li>
-              <li>Tersedia 3 sesi:</li>
-              <li>- Sesi 1: 08:00 WIB - 12:00 WIB</li>
-              <li>- Sesi 2: 12:00 WIB - 16:00 WIB</li>
-              <li>- Sesi 3: 18:00 WIB - 22:00 WIB</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>1 sesi = 4 jam kerja</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} >Tersedia 3 sesi:</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} >- Sesi 1: 08:00 WIB - 12:00 WIB</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} >- Sesi 2: 12:00 WIB - 16:00 WIB</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} >- Sesi 3: 18:00 WIB - 22:00 WIB</li>
             </ul>
           </div>
 
           {/* Plan: Per Hari */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4 className="text-2xl font-bold text-[#34D399] mb-4">Per Hari</h4>
-            <p className="text-lg text-gray-100">Rp 230.000</p>
+            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Hari</h4>
+            <p style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-100">Rp 230.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
-              <li>Durasi: 1 hari = 12 jam kerja</li>
-              <li>Talent bekerja penuh selama 12 jam dalam sehari.</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Durasi: 1 hari = 12 jam kerja</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Talent bekerja penuh selama 12 jam dalam sehari.</li>
             </ul>
           </div>
 
@@ -129,11 +205,23 @@ const Whyus = () => {
             <h4 className="text-2xl font-bold text-[#34D399] mb-4">
               Per Bulan
             </h4>
-            <p className="text-lg text-gray-100">Rp 6.849.000</p>
+            <p style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-100">Rp 6.849.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
-              <li>Durasi: 1 bulan = 30 hari kerja</li>
-              <li>Talent bekerja selama 30 hari dalam sebulan.</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Durasi: 1 bulan = 30 hari kerja</li>
+              <li style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }}>Talent bekerja selama 30 hari dalam sebulan.</li>
             </ul>
           </div>
         </div>
@@ -144,7 +232,11 @@ const Whyus = () => {
         <h3 className="text-3xl font-bold text-[#34D399] mb-4">
           Mari Wujudkan Live Streaming Berkualitas!
         </h3>
-        <p className="text-gray-400 text-lg leading-relaxed mb-6">
+        <p style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-gray-400 text-lg leading-relaxed mb-6">
           Tingkatkan penjualan dan bangun hubungan lebih dekat dengan pelanggan
           Anda bersama HnS Agency. Hubungi kami hari ini dan temukan talent host
           yang sesuai untuk kebutuhan bisnis Anda.

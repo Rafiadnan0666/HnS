@@ -39,7 +39,11 @@ const Contact = () => {
     <section className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden" id="contact">
       {/* Title */}
       <h2 className="text-6xl font-bold text-gray-100 mb-6">Get in Touch</h2>
-      <p className="text-lg text-gray-400 mb-12 text-center max-w-2xl">
+      <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-lg text-gray-400 mb-12 text-center max-w-2xl">
         Connect with us through your favorite platform and let’s start building
         something amazing together!
       </p>
@@ -60,7 +64,11 @@ const Contact = () => {
               style={{ color: platform.color }}
               className="mb-4"
             />
-            <h3 className="text-2xl font-bold text-gray-100">{platform.name}</h3>
+            <h3  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-2xl font-bold text-gray-100">{platform.name}</h3>
           </a>
         ))}
       </div>

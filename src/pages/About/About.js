@@ -23,7 +23,11 @@ const About = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-center p-8">
         <h2 className="text-6xl font-bold text-gray-100 mb-6">About Us</h2>
-        <p className="text-xl text-gray-400 leading-relaxed">
+        <p style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-xl text-gray-400 leading-relaxed">
           Welcome to <span className="text-white font-bold">Host n Stream</span>
           (HnS) Agency adalah layanan penyedia talent host profesional untuk
           kebutuhan live streaming e-commerce, dan online shop Anda. Kami
@@ -31,7 +35,11 @@ const About = () => {
           membantu Anda meningkatkan interaksi dengan pelanggan, membangun
           loyalitas merek, serta mendorong penjualan secara efektif.
         </p>
-        <p className="text-xl text-gray-400 mt-4 leading-relaxed">
+        <p  style={{
+          fontSize: "1.5rem",
+          color: "#fff",
+          fontFamily: "exo2"
+        }} className="text-xl text-gray-400 mt-4 leading-relaxed">
           Whether you're hosting a virtual event, gaming stream, or a live
           podcast, we've got you covered. Join us and elevate your streaming
           journey to the next level.
