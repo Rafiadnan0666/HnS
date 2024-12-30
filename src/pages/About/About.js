@@ -26,7 +26,7 @@ const About = () => {
         <p style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-xl text-gray-400 leading-relaxed">
           Welcome to <span className="text-white font-bold">Host n Stream</span>
           (HnS) Agency adalah layanan penyedia talent host profesional untuk
@@ -38,7 +38,7 @@ const About = () => {
         <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-xl text-gray-400 mt-4 leading-relaxed">
           Whether you're hosting a virtual event, gaming stream, or a live
           podcast, we've got you covered. Join us and elevate your streaming

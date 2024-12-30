@@ -26,12 +26,12 @@ const Whyus = () => {
       {/* Header */}
       <div className="relative z-10 text-center max-w-4xl">
         <h2 className="text-6xl font-bold text-gray-100 mb-6">
-          Why Choose <span className="text-[#34D399]">HnS Agency</span>?
+          Why Choose <span className="text-gray-500">HnS Agency</span>?
         </h2>
         <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-lg text-gray-400 leading-relaxed">
           Host n Stream (HnS) Agency adalah layanan penyedia talent host
           profesional untuk kebutuhan live streaming e-commerce dan online shop
@@ -51,7 +51,7 @@ const Whyus = () => {
           <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-gray-400 leading-relaxed">
             Semua talent kami terlatih dalam teknik komunikasi, penjualan, dan
             penguasaan produk.
@@ -66,7 +66,7 @@ const Whyus = () => {
           <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-gray-400 leading-relaxed">
             Talent kami dapat menyesuaikan gaya penyampaian sesuai target
             audiens Anda.
@@ -81,7 +81,7 @@ const Whyus = () => {
           <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-gray-400 leading-relaxed">
             Kami memastikan performa optimal di setiap sesi live streaming Anda.
           </p>
@@ -95,17 +95,17 @@ const Whyus = () => {
           <li  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Penyediaan talent host live streaming untuk e-commerce.</li>
           <li  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Pelatihan dan konsultasi strategi live streaming.</li>
           <li  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Solusi kreatif untuk meningkatkan engagement audiens.</li>
         </ul>
       </div>
@@ -118,109 +118,109 @@ const Whyus = () => {
         <div className="grid grid-cols-1 align-middle sm:block grid-cols-4 mt-10  md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Plan: Per Jam */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Jam</h4>
+            <h4  className="text-2xl font-bold text-gray-500 mb-4">Per Jam</h4>
             <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-lg text-gray-100">Rp 25.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
               <li  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Durasi: Bebas Pilih</li>
               <li  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Talent dapat dipesan per jam sesuai kebutuhan.</li>
             </ul>
           </div>
 
           {/* Plan: Per Sesi */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Sesi</h4>
+            <h4  className="text-2xl font-bold text-gray-500 mb-4">Per Sesi</h4>
             <p  style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-lg text-gray-100">Rp 80.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>1 sesi = 4 jam kerja</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} >Tersedia 3 sesi:</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} >- Sesi 1: 08:00 WIB - 12:00 WIB</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} >- Sesi 2: 12:00 WIB - 16:00 WIB</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} >- Sesi 3: 18:00 WIB - 22:00 WIB</li>
             </ul>
           </div>
 
           {/* Plan: Per Hari */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4  className="text-2xl font-bold text-[#34D399] mb-4">Per Hari</h4>
+            <h4  className="text-2xl font-bold text-gray-500 mb-4">Per Hari</h4>
             <p style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-lg text-gray-100">Rp 230.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Durasi: 1 hari = 12 jam kerja</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Talent bekerja penuh selama 12 jam dalam sehari.</li>
             </ul>
           </div>
 
           {/* Plan: Per Bulan */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h4 className="text-2xl font-bold text-[#34D399] mb-4">
+            <h4 className="text-2xl font-bold text-gray-500 mb-4">
               Per Bulan
             </h4>
             <p style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-lg text-gray-100">Rp 6.849.000</p>
             <hr className="my-4 border-gray-700" />
             <ul className="text-gray-400 text-sm leading-loose">
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Durasi: 1 bulan = 30 hari kerja</li>
               <li style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }}>Talent bekerja selama 30 hari dalam sebulan.</li>
             </ul>
           </div>
@@ -229,28 +229,30 @@ const Whyus = () => {
 
       {/* Call to Action */}
       <div className="relative z-10 mt-16 text-center">
-        <h3 className="text-3xl font-bold text-[#34D399] mb-4">
+        <h3 className="text-3xl font-bold text-gray-500 mb-4">
           Mari Wujudkan Live Streaming Berkualitas!
         </h3>
         <p style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
+          fontFamily: "Poppins"
         }} className="text-gray-400 text-lg leading-relaxed mb-6">
           Tingkatkan penjualan dan bangun hubungan lebih dekat dengan pelanggan
           Anda bersama HnS Agency. Hubungi kami hari ini dan temukan talent host
           yang sesuai untuk kebutuhan bisnis Anda.
         </p>
-        <button
-          onClick={() =>
-            window.location.assign(
-              "https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0"
-            )
-          }
-          className="px-8 py-4 bg-[#34D399] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
-        >
-          Hubungi Kami
-        </button>
+        <button style={{
+        color : "white"
+      }}
+        onClick={() =>
+          window.location.assign(
+            "https://api.whatsapp.com/send/?phone=+6282227782062&text=Halo, HnS Agency! Saya tertarik menggunakan jasa talent host dari HnS Agency untuk kebutuhan live streaming. Apakah saya bisa mendapatkan informasi lebih lanjut?&type=phone_number&app_absent=0"
+          )
+        }
+        className="z-50 px-8 py-4 bg-[#7c8884] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
+      >
+        Hubungi Kami
+      </button>
       </div>
 
       {/* Decorative Wave */}
