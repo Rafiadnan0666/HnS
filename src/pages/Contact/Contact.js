@@ -36,27 +36,32 @@ const Contact = () => {
   ];
 
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden" id="contact">
+    <section
+      className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden px-6 sm:px-12"
+      id="contact"
+    >
       {/* Title */}
-      <h2 className="text-6xl font-bold text-gray-100 mb-6">Get in Touch</h2>
-      <p  style={{
+      <h2 className="text-6xl font-bold text-gray-100 mb-6 text-center">Get in Touch</h2>
+      <p
+        style={{
           fontSize: "1.5rem",
           color: "#fff",
-          fontFamily: "exo2"
-        }} className="text-lg text-gray-400 mb-12 text-center max-w-2xl">
-        Connect with us through your favorite platform and let’s start building
-        something amazing together!
+          fontFamily: "exo2",
+        }}
+        className="text-lg text-gray-400 mb-12 text-center max-w-2xl"
+      >
+        Connect with us through your favorite platform and let’s start building something amazing together!
       </p>
 
       {/* Contact Links */}
-      <div className="flex align-baseline items-center gap-5">
+      <div className="flex flex-wrap justify-center gap-6">
         {platforms.map((platform, index) => (
           <a
             key={index}
             href={platform.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
+            className="relative bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 w-full sm:w-auto"
           >
             <FontAwesomeIcon
               icon={platform.icon}
@@ -64,11 +69,16 @@ const Contact = () => {
               style={{ color: platform.color }}
               className="mb-4"
             />
-            <h3  style={{
-          fontSize: "1.5rem",
-          color: "#fff",
-          fontFamily: "exo2"
-        }} className="text-2xl font-bold text-gray-100">{platform.name}</h3>
+            <h3
+              style={{
+                fontSize: "1.5rem",
+                color: "#fff",
+                fontFamily: "exo2",
+              }}
+              className="text-2xl font-bold text-gray-100"
+            >
+              {platform.name}
+            </h3>
           </a>
         ))}
       </div>

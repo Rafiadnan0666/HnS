@@ -25,26 +25,26 @@ const Hero = () => {
   }, [cursorPosition]);
 
   return (
-    <section className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden" id="home">
+    <section className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden px-4 sm:px-8">
       {/* Intense Light Glow Effect */}
       <div
         className="absolute pointer-events-none"
         style={{
           width: "100px",
           height: "100px",
-          borderRadius:"100px",
+          borderRadius: "100px",
           left: `${lightPosition.x - 150}px`,
           top: `${lightPosition.y - 150}px`,
           background:
             "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%)",
-          mixBlendMode: "screen", 
-          filter: "blur(10px)", 
+          mixBlendMode: "screen",
+          filter: "blur(10px)",
         }}
       ></div>
 
       {/* Center Text with Subtle Effect */}
       <h1
-        className="text-[18rem] font-bold tracking-wider text-gray-100 z-10"
+        className="text-[10rem] sm:text-[18rem] font-bold tracking-wider text-gray-100 z-10"
         style={{
           position: "relative",
           mixBlendMode: "difference",
@@ -54,25 +54,26 @@ const Hero = () => {
       </h1>
 
       {/* Top Left Text */}
-      <small className="absolute top-10 left-10 text-sm text-gray-500 z-10">
+      <small className="absolute top-10 left-10 text-sm sm:text-lg text-gray-500 z-10">
         Host n Stream Agency
       </small>
 
-      <button style={{
-        color : "white"
-      }}
+      <button
+        style={{
+          color: "white",
+        }}
         onClick={() =>
           window.location.assign(
             "https://api.whatsapp.com/send/?phone=+6282227782062&text=Halo, HnS Agency! Saya tertarik menggunakan jasa talent host dari HnS Agency untuk kebutuhan live streaming. Apakah saya bisa mendapatkan informasi lebih lanjut?&type=phone_number&app_absent=0"
           )
         }
-        className="z-50 px-8 py-4 bg-[#7c8884] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
+        className="z-50 px-6 py-3 sm:px-8 sm:py-4 bg-[#7c8884] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
       >
         Hubungi Kami
       </button>
 
       {/* Bottom Right Text */}
-      <small className="absolute bottom-1 text-white right-10 text-sm z-10">
+      <small className="absolute bottom-1 text-white right-10 text-sm sm:text-base z-10">
         Live Streaming Host Service
       </small>
 

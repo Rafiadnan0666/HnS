@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden" id="about">
+    <section className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden px-4 sm:px-8" id="about">
       {/* Glowing Background Effect */}
       <div
         className="absolute pointer-events-none"
         style={{
-          width: "400px",
-          height: "400px",
+          width: "300px",
+          height: "300px",
           top: "30%",
           left: "50%",
           transform: "translate(-50%, -50%)",
@@ -22,27 +22,13 @@ const About = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-center p-8">
-        <h2 className="text-6xl font-bold text-gray-100 mb-6">About Us</h2>
-        <p style={{
-          fontSize: "1.5rem",
-          color: "#fff",
-          fontFamily: "Poppins"
-        }} className="text-xl text-gray-400 leading-relaxed">
+        <h2 className="text-4xl sm:text-6xl font-bold text-gray-100 mb-6">About Us</h2>
+        <p style={{ fontSize: "1.25rem" }} className="text-lg sm:text-xl text-gray-400 leading-relaxed">
           Welcome to <span className="text-white font-bold">Host n Stream</span>
-          (HnS) Agency adalah layanan penyedia talent host profesional untuk
-          kebutuhan live streaming e-commerce, dan online shop Anda. Kami
-          menghadirkan host berbakat, berpengalaman, dan berkomitmen untuk
-          membantu Anda meningkatkan interaksi dengan pelanggan, membangun
-          loyalitas merek, serta mendorong penjualan secara efektif.
+          (HnS) Agency, a provider of professional talent hosts for your live streaming, e-commerce, and online shop needs. We bring talented, experienced, and dedicated hosts to help you boost customer interaction, build brand loyalty, and drive sales effectively.
         </p>
-        <p  style={{
-          fontSize: "1.5rem",
-          color: "#fff",
-          fontFamily: "Poppins"
-        }} className="text-xl text-gray-400 mt-4 leading-relaxed">
-          Whether you're hosting a virtual event, gaming stream, or a live
-          podcast, we've got you covered. Join us and elevate your streaming
-          journey to the next level.
+        <p style={{ fontSize: "1.25rem" }} className="text-lg sm:text-xl text-gray-400 mt-4 leading-relaxed">
+          Whether you're hosting a virtual event, gaming stream, or a live podcast, we've got you covered. Join us and elevate your streaming journey to the next level.
         </p>
       </div>
 
