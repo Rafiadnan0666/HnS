@@ -25,7 +25,7 @@ const Hero = () => {
   }, [cursorPosition]);
 
   return (
-    <section className="relative flex flex-col items-center justify-center h-screen bg-gray-800 text-gray-300 font-[Audiowide] overflow-hidden px-4 sm:px-8">
+    <section className="relative flex flex-col items-center justify-center h-screen  bg-black text-gray-300 font-[Audiowide] overflow-hidden px-4 sm:px-8">
       {/* Intense Light Glow Effect */}
       <div
         className="absolute pointer-events-none"
@@ -44,7 +44,7 @@ const Hero = () => {
 
       {/* Center Text with Subtle Effect */}
       <h1
-        className="text-[10rem] sm:text-[18rem] font-bold tracking-wider text-gray-100 z-10"
+        className="text-[10rem] sm:text-[18rem] font-bold tracking-wider text-white  100 z-10"
         style={{
           position: "relative",
           mixBlendMode: "difference",

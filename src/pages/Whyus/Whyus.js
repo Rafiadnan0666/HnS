@@ -140,12 +140,19 @@ const Whyus = () => {
 
       {/* Contact Button */}
       <div className="relative z-10 mt-12">
-        <a
-          href="https://wa.me/yourwhatsappnumber"
-          className="text-lg text-white font-bold bg-green-600 py-3 px-10 rounded-lg hover:bg-green-700 transition-all"
-        >
-          Contact Us on WhatsApp
-        </a>
+      <button
+        style={{
+          color: "white",
+        }}
+        onClick={() =>
+          window.location.assign(
+            "https://api.whatsapp.com/send/?phone=+6282227782062&text=Halo, HnS Agency! Saya tertarik menggunakan jasa talent host dari HnS Agency untuk kebutuhan live streaming. Apakah saya bisa mendapatkan informasi lebih lanjut?&type=phone_number&app_absent=0"
+          )
+        }
+        className="z-50 px-6 py-3 sm:px-8 sm:py-4 bg-[#7c8884] text-gray-900 text-lg font-bold rounded-lg shadow-lg hover:bg-[#2EBF89] transition-all duration-300"
+      >
+        Hubungi Kami
+      </button>
       </div>
     </section>
   );
