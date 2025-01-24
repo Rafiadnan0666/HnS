@@ -11,13 +11,13 @@ const Footer = () => {
         {/* HNS AGENCY Section */}
         <div  className="mb-8">
           <h1
-             className="text-left font-extrabold leading-none tracking-wide"
+             className="text-left  leading-none tracking-wide"
             style={{ fontSize: "18rem", lineHeight: "1" }}
           >
             HNS
           </h1>
           <h2
-             className="text-left font-bold tracking-wide"
+             className="text-left  tracking-wide"
             style={{ fontSize: "12rem", lineHeight: "1" }}
           >
             AGENCY
