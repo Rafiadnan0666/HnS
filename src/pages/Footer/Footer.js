@@ -2,37 +2,118 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-6 font-[Audiowide]">
-      <div className="container mx-auto flex flex-col items-center justify-center">
-        {/* Logo */}
-        <h1 className="text-4xl font-bold text-gray-100 mb-4">HnS</h1>
-
-        {/* Footer Links */}
-        <div className="flex space-x-6 mb-4">
-          <a
-            href="#about"
-            className="text-gray-400 hover:text-gray-100 transition duration-300"
+    <footer  className="bg-black text-white py-8  z-50 "  style={{ position: "relative",
+      zIndex: 100,
+      backgroundColor: "black",
+      minHeight: "100vh",
+      }}>
+      <div  className="px-6">
+        {/* HNS AGENCY Section */}
+        <div  className="mb-8">
+          <h1
+             className="text-left font-extrabold leading-none tracking-wide"
+            style={{ fontSize: "18rem", lineHeight: "1" }}
           >
-            About Us
-          </a>
-          <a
-            href="#service"
-            className="text-gray-400 hover:text-gray-100 transition duration-300"
+            HNS
+          </h1>
+          <h2
+             className="text-left font-bold tracking-wide"
+            style={{ fontSize: "12rem", lineHeight: "1" }}
           >
-            Services
-          </a>
-          <a
-            href="#contact"
-            className="text-gray-400 hover:text-gray-100 transition duration-300"
-          >
-            Contact
-          </a>
+            AGENCY
+          </h2>
         </div>
 
-        {/* Copyright */}
-        <p className="text-gray-500 text-sm">
-          © {new Date().getFullYear()} HnS. All rights reserved.
-        </p>
+        {/* Main Footer Section */}
+        <div  className="grid grid-cols-1 md:grid-cols-3 gap-10 font-[Poppins]">
+          {/* Site Links Section */}
+          <div  className="flex flex-col items-start">
+            <h2  className="text-3xl font-semibold mb-4">Site</h2>
+            <a
+              href="#home"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Home
+            </a>
+            <a
+              href="#service"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Service
+            </a>
+            <a
+              href="#about"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              About
+            </a>
+            <a
+              href="#contact"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Contact
+            </a>
+          </div>
+
+          {/* Social Media Section */}
+          <div  className="flex flex-col items-start">
+            <h2  className="text-3xl font-semibold mb-4">Social Media</h2>
+            <a
+              href="#whatsapp"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="#instagram"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Instagram
+            </a>
+            <a
+              href="#tiktok"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              TikTok
+            </a>
+            <a
+              href="#facebook"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Facebook
+            </a>
+            <a
+              href="#linkedin"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              LinkedIn
+            </a>
+          </div>
+
+          {/* FAQ Section */}
+          <div  className="flex flex-col items-start">
+            <h2  className="text-3xl font-semibold mb-4">FAQ / Bantuan</h2>
+            <a
+              href="#faq"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Frequently Asked Questions
+            </a>
+            <a
+              href="#support"
+               className="text-gray-300 hover:text-white transition duration-300 text-xl"
+            >
+              Support Center
+            </a>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div  className="mt-8 border-t border-gray-700 pt-6 text-center">
+          <p  className="text-sm text-gray-400">
+            © {new Date().getFullYear()} HNS AGENCY. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );

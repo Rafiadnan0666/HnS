@@ -1,88 +1,79 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faWhatsapp,
-  faInstagram,
-  faTiktok,
-  faFacebook,
-} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
-  const platforms = [
-    {
-      name: "WhatsApp",
-      link: "https://api.whatsapp.com/send/?phone=+62%20896-5239-9694&text=Assalamualaikum&type=phone_number&app_absent=0",
-      icon: faWhatsapp,
-      color: "#25D366",
-    },
-    {
-      name: "Instagram",
-      link: "https://www.instagram.com/hostnstream/",
-      icon: faInstagram,
-      color: "#E1306C",
-    },
-    {
-      name: "TikTok",
-      link: "#", 
-      icon: faTiktok,
-      color: "#010101",
-    },
-    {
-      name: "Facebook",
-      link: "#",
-      icon: faFacebook,
-      color: "#1877F2",
-    },
-  ];
-
   return (
-    <section
-      className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden px-6 sm:px-12"
-      id="contact"
-    >
-      {/* Title */}
-      <h2 className="text-6xl font-bold text-gray-100 mb-6 text-center">Get in Touch</h2>
-      <p
-        style={{
-          fontSize: "1.5rem",
-          color: "#fff",
-          fontFamily: "exo2",
-        }}
-        className="text-lg text-gray-400 mb-12 text-center max-w-2xl"
-      >
-        Connect with us through your favorite platform and let’s start building something amazing together!
-      </p>
-
-      {/* Contact Links */}
-      <div className="flex flex-wrap justify-center gap-6">
-        {platforms.map((platform, index) => (
-          <a
-            key={index}
-            href={platform.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 w-full sm:w-auto"
-          >
-            <FontAwesomeIcon
-              icon={platform.icon}
-              size="3x"
-              style={{ color: platform.color }}
-              className="mb-4"
-            />
-            <h3
-              style={{
-                fontSize: "1.5rem",
-                color: "#fff",
-                fontFamily: "exo2",
-              }}
-              className="text-2xl font-bold text-gray-100"
-            >
-              {platform.name}
-            </h3>
-          </a>
-        ))}
+    <div  className="font-poppins text-black bg-white w-full px-0 z-50" style={{ position: "relative",
+      zIndex: 100,
+      backgroundColor: "white", }}>
+      {/* Price List Section */}
+      <div  className="mb-16 text-left px-12">
+        <h1  className="text-[16rem] font-extrabold leading-none">PRICE LIST</h1>
+        <h2  className="text-[6rem] font-bold mt-4">LIVE CUMA Rp. 25.000-an</h2>
       </div>
-    </section>
+
+      {/* Packages */}
+      <div  className="flex flex-row  gap-0 w-full bg-gray-100"> 
+        {/* Paket Basic */}
+        <div  className="p-12 bg-gray-200 text-black w-full flex flex-col justify-center">
+          <p  className="text-[12rem] font-extrabold leading-none font-poppins">"</p>
+          <h3  className="text-[6rem] font-extrabold mb-6">PAKET BASIC</h3>
+          <p  className="text-[4rem] font-bold mb-4">Rp. 28.000</p>
+          <p  className="text-[3rem]">Live Rp. 28.000 per Jam</p>
+          <p  className="text-[3rem]">Live di 1 platform</p>
+          <p  className="text-[3rem]">Pilih Jadwal Sesuai kebutuhan</p>
+          <p  className="text-[3rem]">Minimal order 3 hari</p>
+        </div>
+
+        {/* Paket Session */}
+        <div  className="p-12 bg-gray-300 text-black w-full flex flex-col justify-center">
+          <p  className="text-[12rem] font-extrabold leading-none font-poppins">"</p>
+          <h3  className="text-[6rem] font-extrabold mb-6">PAKET SESSION</h3>
+          <p  className="text-[4rem] font-bold mb-4">Rp. 80.000</p>
+          <p  className="text-[3rem]">Sesi 1 = 08:00 - 11:00 WIB</p>
+          <p  className="text-[3rem]">Sesi 2 = 11:00 - 14:00 WIB</p>
+          <p  className="text-[3rem]">Sesi 3 = 14:00 - 17:00 WIB</p>
+          <p  className="text-[3rem]">Sesi 4 = 17:00 - 20:00 WIB</p>
+          <p  className="text-[3rem]">Sesi 5 = 20:00 - 23:00 WIB</p>
+          <p  className="text-[2.5rem] mt-4">* Minimal order 5 hari.</p>
+        </div>
+
+        {/* Paket Daily */}
+        <div  className="p-12 bg-gray-200 text-black w-full flex flex-col justify-center">
+          <p  className="text-[12rem] font-extrabold leading-none font-poppins">"</p>
+          <h3  className="text-[6rem] font-extrabold mb-6">PAKET DAILY</h3>
+          <p  className="text-[4rem] font-bold mb-4">Rp. 105.000</p>
+          <p  className="text-[3rem]">Live 4 Jam per hari</p>
+          <p  className="text-[3rem]">08:00 - 12:00 / 12:00 - 16:00</p>
+          <p  className="text-[3rem]">16:00 - 20:00 / 20:00 - 23:59</p>
+          <p  className="text-[2.5rem] mt-4">* Minimal order 3 hari.</p>
+        </div>
+      </div>
+
+      {/* Gold & Premium - Full Width */}
+      <div  className="flex flex-row sm:flex-cols-2 gap-0 mt-12 w-full bg-gray-100">
+        {/* Paket Gold */}
+        <div  className="p-12 bg-gray-300 text-black w-full flex flex-col justify-center">
+          <p  className="text-[12rem] font-extrabold leading-none font-poppins">"</p>
+          <h3  className="text-[6rem] font-extrabold mb-6">PAKET GOLD</h3>
+          <p  className="text-[4rem] font-bold mb-4">Rp. 3.050.000</p>
+          <p  className="text-[3rem]">Live 30 hari per bulan</p>
+          <p  className="text-[3rem]">08:00 - 12:00 / 12:00 - 16:00</p>
+          <p  className="text-[3rem]">16:00 - 20:00 / 20:00 - 23:59</p>
+          <p  className="text-[2.5rem] mt-4">* Tambah platform lain +90%</p>
+        </div>
+
+        {/* Paket Premium */}
+        <div  className="p-12 bg-gray-200 text-black w-full flex flex-col justify-center">
+          <p  className="text-[12rem] font-extrabold leading-none font-poppins">"</p>
+          <h3  className="text-[6rem] font-extrabold mb-6">PAKET PREMIUM</h3>
+          <p  className="text-[4rem] font-bold mb-4">Rp. 4.400.000</p>
+          <p  className="text-[3rem]">Live 30 hari per bulan</p>
+          <p  className="text-[3rem]">12:00 - 18:00 WIB</p>
+          <p  className="text-[3rem]">18:00 - 23:59 WIB</p>
+          <p  className="text-[2.5rem] mt-4">* Tambah platform lain +80%</p>
+        </div>
+      </div>
+    </div>
   );
 };
 

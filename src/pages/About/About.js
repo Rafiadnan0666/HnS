@@ -2,50 +2,24 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-300 font-[Audiowide] overflow-hidden px-4 sm:px-8" id="about">
-      {/* Glowing Background Effect */}
-      <div
-        className="absolute pointer-events-none"
-        style={{
-          width: "300px",
-          height: "300px",
-          top: "30%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          background:
-            "radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0) 100%)",
-          mixBlendMode: "screen",
-          filter: "blur(80px)",
-          zIndex: 1,
-        }}
-      ></div>
+    <section  className="relative flex min-h-screen font-[Poppins] overflow-hidden pt-16 px-12 bg-transparent ml-auto" id="about">
+      {/* Left Side - Transparent and Empty */}
+      <div className="flex-1 bg-transparent"></div>
 
-      {/* Content */}
-      <div className="relative z-10 max-w-4xl text-center p-8">
-        <h2 className="text-4xl sm:text-6xl font-bold text-gray-100 mb-6">About Us</h2>
-        <p style={{ fontSize: "1.25rem" }} className="text-lg sm:text-xl text-gray-400 leading-relaxed">
-          Welcome to <span className="text-white font-bold">Host n Stream</span>
-          (HnS) Agency, a provider of professional talent hosts for your live streaming, e-commerce, and online shop needs. We bring talented, experienced, and dedicated hosts to help you boost customer interaction, build brand loyalty, and drive sales effectively.
+      {/* Right Side - Content */}
+      <div className="relative w-1/2 h-full flex flex-col justify-start items-start pt-16 px-12 bg-transparent ml-auto">
+        <h2 className="text-5xl sm:text-6xl font-extrabold text-black mb-8">Tentang Kami</h2>
+        <h3 className="text-3xl sm:text-4xl font-bold text-black mb-4">HOST handal anda cuan total</h3>
+        <p className="text-xl sm:text-2xl text-black leading-relaxed mb-6">
+          HnS Agency adalah agensi yang menyediakan jasa talent host profesional untuk live streaming e-commerce dan platform digital lainnya. Kami menghubungkan klien dari berbagai industri dengan talent host yang memiliki keterampilan komunikasi luar biasa, mampu berinteraksi dengan audiens, dan memasarkan produk dengan cara yang menarik.
         </p>
-        <p style={{ fontSize: "1.25rem" }} className="text-lg sm:text-xl text-gray-400 mt-4 leading-relaxed">
-          Whether you're hosting a virtual event, gaming stream, or a live podcast, we've got you covered. Join us and elevate your streaming journey to the next level.
+        <p className="text-xl sm:text-2xl text-black leading-relaxed mb-6">
+          Dengan fokus pada kualitas dan keahlian, kami menyediakan talent host yang telah terlatih untuk meningkatkan engagement audiens, mempercepat konversi penjualan, dan memberikan pengalaman belanja online yang menyenangkan. Agensi kami bekerja sama dengan berbagai platform seperti Shopee Live, Tokopedia, TikTok Shop, dan lainnya, membantu bisnis untuk tumbuh melalui sesi live streaming yang profesional dan efektif.
+        </p>
+        <p className="text-xl sm:text-2xl text-black leading-relaxed">
+          Kami menawarkan berbagai pilihan talent host sesuai dengan spesialisasi dan kebutuhan klien, mulai dari fashion, kecantikan, elektronik, hingga produk rumah tangga. Setiap talent kami dipilih dengan seleksi ketat untuk memastikan mereka memiliki kemampuan berbicara yang kuat, penguasaan produk, dan kemampuan untuk beradaptasi dengan berbagai audiens.
         </p>
       </div>
-
-      {/* Decorative Wave at Bottom */}
-      {/* <div className="absolute bottom-0 w-full h-[40vh]">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-          className="w-full h-full"
-          style={{
-            transform: "translateY(10px)",
-            fill: "#1f2937",
-          }}
-        >
-          <path d="M0,160L40,165.3C80,171,160,181,240,176C320,171,400,149,480,138.7C560,128,640,128,720,144C800,160,880,192,960,213.3C1040,235,1120,245,1200,240C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
-        </svg>
-      </div> */}
     </section>
   );
 };
