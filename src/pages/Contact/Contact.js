@@ -20,17 +20,17 @@ const Contact = () => {
             "
           </p>
           <h3 className="text-[6rem] font-extrabold mb-6">PAKET BASIC</h3>
-          <p className="font-poppins  text-[2rem] mb-4">Rp. 28.000</p>
-          <p className="font-poppins  text-[2rem] text-gray-500">
+          <p className="font-poppins  text-[4rem] mb-4">Rp. 28.000</p>
+          <p className="font-poppins  text-[2rem] text-gray-700">
             Live Rp. 28.000 per Jam
           </p>
-          <p className="font-poppins  text-[2rem] text-gray-500">
+          <p className="font-poppins  text-[2rem] text-gray-700">
             Live di 1 platform
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             Pilih Jadwal Sesuai kebutuhan
           </p>
-          <p className="font-poppins  text-[2rem]">Minimal order 3 hari</p>
+          <p className="font-poppins text-gray-700  text-[2rem]">Minimal order 3 hari</p>
         </div>
 
         {/* Paket Session */}
@@ -39,24 +39,28 @@ const Contact = () => {
             "
           </p>
           <h3 className="text-[6rem] font-extrabold mb-6">PAKET SESSION</h3>
-          <p className="font-poppins  text-[2rem] mb-4">Rp. 80.000</p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins  text-[4rem] mb-4">Rp. 80.000</p>
+          <p className="font-poppins text-gray-700  text-[2rem]">
             Sesi 1 = 08:00 - 11:00 WIB
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             Sesi 2 = 11:00 - 14:00 WIB
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             Sesi 3 = 14:00 - 17:00 WIB
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             Sesi 4 = 17:00 - 20:00 WIB
           </p>
-          <p className="text-[2rem]">Sesi 5 = 20:00 - 23:00 WIB</p>
+          <p className="text-[2rem] text-gray-700">Sesi 5 = 20:00 - 23:00 WIB</p>
           <p className="text-[2.5rem] mt-4"></p>
           <hr />
-          <h3 className=" text-gray-500 text-[1.5rem]">Note</h3>
-          <p className="text-[1.5rem] text-gray-500">
+          <h3 className=" text-gray-700 text-[1.5rem]" style={{
+            fontFamily: "garamond"
+          }}>Note</h3>
+          <p className="text-[1.5rem] text-gray-700" style={{
+            fontFamily: "garamond"
+          }}>
             Live 3 Jam per Sesi dengan minimal order 5 hari Live di 1 platform
             pilihan Pilih waktu di luar jadwal yang tertera dikenai biaya
             tambahan sebesar 5% per paket, Minimal order 5 hari.
@@ -68,22 +72,26 @@ const Contact = () => {
           <p className="text-[12rem] font-extrabold leading-none font-poppins">
             "
           </p>
-          <h3 className="text-[6rem] font-extrabold mb-6">PAKET DAILY</h3>
-          <p className="font-poppins  text-[2rem] mb-4">Rp. 105.000</p>
-          <p className="font-poppins  text-[2rem] text-gray-500">
+          <h3 className="text-[6rem] font-extrabold mb-1">PAKET DAILY</h3>
+          <p className="font-poppins  text-[4rem] mb-4">Rp. 110.000</p>
+          <p className="font-poppins  text-[2rem] text-gray-700">
             Live 4 Jam per hari
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             08:00 - 12:00 / 12:00 - 16:00
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             16:00 - 20:00 / 20:00 - 23:59
           </p>
-          <p className="font-poppins  text-[2rem] mt-4">
+          <p className="font-poppins text-gray-700  text-[2rem] mt-4">
           </p>
           <hr />
-          <h3 className=" text-gray-500 text-[1.5rem]">Note</h3>
-          <p className="text-[1.5rem] text-gray-500">
+          <h3 className=" text-gray-700 text-[1.5rem]" style={{
+            fontFamily: "garamond"
+          }}>Note</h3>
+          <p className="text-[1.5rem] text-gray-700" style={{
+            fontFamily: "garamond"
+          }}>
             Live 4 Jam per hari dengan minimal order 5 hari Live di 1 platform
             pilihan Pilih waktu di luar jadwal yang tertera dikenai biaya
             tambahan 5% per paket Minimal order 3 hari
@@ -99,22 +107,26 @@ const Contact = () => {
             "
           </p>
           <h3 className="text-[6rem] font-extrabold mb-6">PAKET GOLD</h3>
-          <p className="font-poppins  text-[2rem] mb-4">Rp. 3.100.000</p>
-          <p className="font-poppins  text-[2rem] text-gray-500">
+          <p className="font-poppins  text-[4rem] mb-4">Rp. 3.100.000</p>
+          <p className="font-poppins  text-[2rem] text-gray-700">
             Live 30 hari per bulan
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             08:00 - 12:00 / 12:00 - 16:00
           </p>
-          <p className="font-poppins  text-[2rem]">
+          <p className="font-poppins text-gray-700  text-[2rem]">
             16:00 - 20:00 / 20:00 - 23:59
           </p>
           <p className="font-poppins  text-[2rem] mt-4">
             
           </p>
           <hr />
-          <h3 className=" text-gray-500 text-[1.5rem]">Note</h3>
-          <p className="text-[1.5rem] text-gray-100">
+          <h3 className=" text-gray-700 text-[1.5rem]" style={{
+            fontFamily: "garamond"
+          }}>Note</h3>
+          <p className="text-[1.5rem] text-gray-700" style={{
+            fontFamily: "garamond"
+          }}>
             Live 4 Jam per hari Live di 1 platform pilihan, untuk tambahan
             platform lain dikenakan biaya 90% Pilih waktu sesuai kebutuhan live
             streaming anda Setiap 1 jam tambahan dikenakan biaya Rp. 25.000
@@ -128,18 +140,22 @@ const Contact = () => {
             "
           </p>
           <h3 className="text-[6rem] font-extrabold mb-6">PAKET PREMIUM</h3>
-          <p className="font-poppins  text-[2rem] mb-4">Rp. 4.490.000</p>
-          <p className="font-poppins  text-[2rem] text-gray-500">
+          <p className="font-poppins  text-[4rem] mb-4">Rp. 4.490.000</p>
+          <p className="font-poppins  text-[2rem] text-gray-700">
             Live 30 hari per bulan
           </p>
-          <p className="font-poppins  text-[2rem]">12:00 - 18:00 WIB</p>
-          <p className="font-poppins  text-[2rem]">18:00 - 23:59 WIB</p>
-          <p className="font-poppins  text-[2rem] mt-4">
+          <p className="font-poppins text-gray-700  text-[2rem]">12:00 - 18:00 WIB</p>
+          <p className="font-poppins text-gray-700  text-[2rem]">18:00 - 23:59 WIB</p>
+          <p className="font-poppins text-gray-700  text-[2rem] mt-4">
            
           </p>
           <hr />
-          <h3 className=" text-gray-500 text-[1.5rem]">Note</h3>
-          <p className="text-[1.5rem] text-gray-500">
+          <h3 className=" text-gray-700 text-[1.5rem]" style={{
+            fontFamily: "garamond"
+          }}>Note</h3>
+          <p className="text-[1.5rem] text-gray-700 font-" style={{
+            fontFamily: "garamond"
+          }}>
             Live 6 Jam per hari Live di 1 platform pilihan, untuk tambahan
             platform lain dikenakan biaya 80% Pilih waktu sesuai kebutuhan live
             streaming anda Setiap 1 jam tambahan dikenakan biaya Rp. 25.000

@@ -59,7 +59,7 @@ const Navbar = () => {
               component="a"
               href="#home"
               sx={{
-                fontFamily: "Poppins",
+                fontFamily: "Audiowide",
                 fontWeight: 500,
                 letterSpacing: ".3rem",
                 color: "white",
