@@ -57,7 +57,7 @@ const Contact = () => {
           <hr />
           <h3 className=" text-gray-700 text-[1.5rem]" style={{
             fontFamily: "garamond"
-          }}>Note</h3>
+          }}>Note: </h3>
           <p className="text-[1.5rem] text-gray-700" style={{
             fontFamily: "garamond"
           }}>
@@ -88,7 +88,7 @@ const Contact = () => {
           <hr />
           <h3 className=" text-gray-700 text-[1.5rem]" style={{
             fontFamily: "garamond"
-          }}>Note</h3>
+          }}>Note: </h3>
           <p className="text-[1.5rem] text-gray-700" style={{
             fontFamily: "garamond"
           }}>
@@ -123,7 +123,7 @@ const Contact = () => {
           <hr />
           <h3 className=" text-gray-700 text-[1.5rem]" style={{
             fontFamily: "garamond"
-          }}>Note</h3>
+          }}>Note: </h3>
           <p className="text-[1.5rem] text-gray-700" style={{
             fontFamily: "garamond"
           }}>
@@ -152,7 +152,7 @@ const Contact = () => {
           <hr />
           <h3 className=" text-gray-700 text-[1.5rem]" style={{
             fontFamily: "garamond"
-          }}>Note</h3>
+          }}>Note: </h3>
           <p className="text-[1.5rem] text-gray-700 font-" style={{
             fontFamily: "garamond"
           }}>
