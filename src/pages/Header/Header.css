@@ -4,7 +4,7 @@
     top: 0;
     width: 50%;
     height: 100%;
-    background-image: url('https://cdn.prod.website-files.com/67825afc245b1082c0f7d76f/67825afc245b1082c0f7d960_home-hero-p-1080.webp');
+    background-image: url('./../../latar.jpg');
     background-size: cover;
     background-position: center;
     
