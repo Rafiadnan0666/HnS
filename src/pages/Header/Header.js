@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Hero = () => {
   return (
-    <section className="relative flex h-screen bg-transparent text-black font-sans overflow-hidden">
+    <section className="relative flex h-screen sm:flex-col sm:text-[2rem] bg-transparent text-black font-sans overflow-hidden">
       {/* Left Side Image */}
       <div className="w-full h-full bg-transparent fixed left-0 top-0">
         <div className="gambar w-full h-full bg-gray-300 flex items-center justify-center"></div>
@@ -32,7 +32,7 @@ const Hero = () => {
             marginBottom: "20px",  // Add space below the paragraph
           }}
         >
-          Layanan Penyedia Talent Host Live Streaming untuk Kebutuhan Online Shop
+          Layanan Penyedia Talent Host Live Streaming untuk Kebutuhan Live Online Shop
         </p>
         <button
           className="mt-10 px-8 py-4 bg-black text-white text-lg sm:text-xl font-medium rounded-lg hover:bg-gray-800 transition duration-300"

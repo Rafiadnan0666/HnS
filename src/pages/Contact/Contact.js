@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
 
       {/* Packages */}
-      <div className="flex flex-row  gap-0 w-full bg-gray-100">
+      <div className="flex flex-col gap-0 w-full bg-gray-100">
         {/* Paket Basic */}
         <div className="p-12 bg-gray-200 text-gra w-full flex flex-col justify-center">
           <p className="text-[12rem] font-extrabold leading-none font-poppins">
@@ -61,8 +61,8 @@ const Contact = () => {
           <p className="text-[1.5rem] text-gray-700" style={{
             fontFamily: "garamond"
           }}>
-            Live 3 Jam per Sesi dengan minimal order 5 hari Live di 1 platform
-            pilihan Pilih waktu di luar jadwal yang tertera dikenai biaya
+            Live 3 Jam per Sesi dengan minimal order 5 hari <br />Live di 1 platform
+            pilihan <br />Pilih waktu di luar jadwal yang tertera dikenai biaya
             tambahan sebesar 5% per paket, Minimal order 5 hari.
           </p>
         </div>
@@ -93,8 +93,8 @@ const Contact = () => {
             fontFamily: "garamond"
           }}>
             Live 4 Jam per hari dengan minimal order 5 hari Live di 1 platform
-            pilihan Pilih waktu di luar jadwal yang tertera dikenai biaya
-            tambahan 5% per paket Minimal order 3 hari
+            <br />pilihan Pilih waktu di luar jadwal yang tertera dikenai biaya
+            tambahan 5% per paket <br />Minimal order 3 hari
           </p>
         </div>
       </div>
@@ -128,9 +128,9 @@ const Contact = () => {
             fontFamily: "garamond"
           }}>
             Live 4 Jam per hari Live di 1 platform pilihan, untuk tambahan
-            platform lain dikenakan biaya 90% Pilih waktu sesuai kebutuhan live
-            streaming anda Setiap 1 jam tambahan dikenakan biaya Rp. 25.000
-            * Tambah platform lain +90%
+            platform lain dikenakan biaya 90%.
+            <br />Pilih waktu sesuai kebutuhan live online shop anda.
+            <br />Setiap 1 jam tambahan dikenakan biaya Rp. 25.000.
           </p>
         </div>
 
@@ -157,9 +157,9 @@ const Contact = () => {
             fontFamily: "garamond"
           }}>
             Live 6 Jam per hari Live di 1 platform pilihan, untuk tambahan
-            platform lain dikenakan biaya 80% Pilih waktu sesuai kebutuhan live
-            streaming anda Setiap 1 jam tambahan dikenakan biaya Rp. 25.000
-            * Tambah platform lain +80%
+            platform lain dikenakan biaya 90%.
+            <br />Pilih waktu sesuai kebutuhan live online shop anda.
+            <br />Setiap 1 jam tambahan dikenakan biaya Rp. 25.000.
           </p>
         </div>
       </div>

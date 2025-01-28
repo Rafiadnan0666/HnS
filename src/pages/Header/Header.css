@@ -1,12 +1,26 @@
 .gambar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background-image: url('./../../latar.jpg');
-    background-size: cover;
-    background-position: center;
-    
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%; /* Default for larger screens */
+  height: 100%;
+  background-image: url('./../../latar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .gambar {
+    width: 100%; /* Full width for smaller screens */
+    height: 50%; /* Adjust height to fit content */
   }
-  
+}
+
+@media screen and (max-width: 480px) {
+  .gambar {
+    height: 40%; /* Slightly reduce height for very small screens */
+  }
+}
