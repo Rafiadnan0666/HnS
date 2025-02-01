@@ -9,18 +9,74 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
+  z-index: 1; /* Ensure image is behind the content */
+}
+
+section .haha {
+  display: block;
+}
+
+#home {
+  display: block;
 }
 
 /* Responsive Adjustments */
+/* Responsive Adjustments */
 @media screen and (max-width: 768px) {
   .gambar {
+    display: none; /* Hide the image on tablets and phones */
+  }
+
+  .ok {
+    flex-direction: column;
+    text-align: center;
+    display: block;
+  }
+
+  .hero-heading {
+    font-size: 4rem; /* Adjusted for tablets */
+  }
+
+  p {
+    font-size: 1.25rem; /* Adjusted for tablets */
+  }
+
+  /* Center the content on smaller screens */
+  .relative.w-1\/2 {
     width: 100%; /* Full width for smaller screens */
-    height: 50%; /* Adjust height to fit content */
+    margin-left: 0; /* Remove the left margin */
+    align-items: center; /* Center align the content */
+    text-align: center; /* Center the text */
   }
 }
 
 @media screen and (max-width: 480px) {
-  .gambar {
-    height: 40%; /* Slightly reduce height for very small screens */
+  .hero-heading {
+    font-size: 3rem; /* Adjusted for phones */
+  }
+
+  p {
+    font-size: 1rem; /* Adjusted for phones */
+  }
+
+  button {
+    padding: 0.5rem 1rem; /* Smaller button padding for phones */
+    font-size: 0.875rem; /* Smaller button font size for phones */
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  .hero-heading {
+    font-size: 1rem; /* Smaller for phones */
+  }
+
+  p {
+    font-size: 1rem; /* Smaller for phones */
+  }
+
+  button {
+    padding: 0.5rem 1rem; /* Smaller button padding for phones */
+    font-size: 0.875rem; /* Smaller button font size for phones */
   }
 }

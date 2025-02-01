@@ -4,23 +4,20 @@ const Whyus = () => {
   return (
     <div className="font-poppins bg-white text-black">
       {/* Visi Section */}
-      <section
-        className="h-screen flex flex-col justify-center items-start px-8 md:px-16 relative bg-white"
-        style={{ zIndex: 100 }}
-      >
+      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 relative bg-white">
         <h1
-          className="text-5xl sm:text-6xl md:text-9xl font-extrabold mb-4"
-          style={{ fontSize: "15rem", fontWeight: "900", marginBottom: "1rem" }}
+          className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4" // Adjusted font size
+          style={{ fontSize: "4rem", fontWeight: "900", marginBottom: "1rem" }} // Further adjustment
         >
           VISI
         </h1>
         <p
-          className="text-xl sm:text-2xl md:text-4xl font-light leading-tight"
+          className="text-base sm:text-lg md:text-xl font-light leading-relaxed" // Adjusted font size
           style={{
-            fontSize: "6rem",
+            fontSize: "1.5rem", // Further adjustment
             fontWeight: "300",
-            lineHeight: "1",
-            maxWidth: "80%",
+            lineHeight: "1.2", // Improved line height for readability
+            maxWidth: "90%", // Slightly wider for better flow
           }}
         >
           Menjadi mitra terdepan dalam menyediakan layanan host live streaming
@@ -30,23 +27,20 @@ const Whyus = () => {
       </section>
 
       {/* Misi Section */}
-      <section
-        className="h-screen flex flex-col justify-center items-start px-8 md:px-16 relative bg-white"
-        style={{ zIndex: 100 }}
-      >
+      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 relative bg-white">
         <h1
-          className="text-5xl sm:text-6xl md:text-9xl font-extrabold mb-4"
-          style={{ fontSize: "15rem", fontWeight: "900", marginBottom: "1rem" }}
+          className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4" // Adjusted font size
+          style={{ fontSize: "4rem", fontWeight: "900", marginBottom: "1rem" }} // Further adjustment
         >
           MISI
         </h1>
         <p
-          className="text-xl sm:text-2xl md:text-4xl font-light leading-tight"
+          className="text-base sm:text-lg md:text-xl font-light leading-relaxed" // Adjusted font size
           style={{
-            fontSize: "6rem",
+            fontSize: "1.5rem", // Further adjustment
             fontWeight: "300",
-            lineHeight: "1",
-            maxWidth: "80%",
+            lineHeight: "1.2", // Improved line height
+            maxWidth: "90%", // Slightly wider
           }}
         >
           Memberikan layanan dengan harga yang kompetitif tanpa mengorbankan
