@@ -50,7 +50,7 @@ const Whyus = () => {
 
       {/* Siapa yang Cocok Menggunakan Jasa Kami */}
       <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 bg-white">
-        <h1 className="text-4xl sm:text-3xl md:text-3xl font-extrabold mb-4 " style={{
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 " style={{
           lineHeight:"5rem"
         }}>SIAPA YANG COCOK MENGGUNAKAN JASA KAMI?</h1>
         <p className="text-lg font-semibold">HOSTNSTREAM@GMAIL.COM | 0822-2778-2062</p>
