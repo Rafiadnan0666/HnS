@@ -50,45 +50,45 @@ const About = () => {
         </h3>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6rem",
             color: "black",
             lineHeight: "1.5",
             marginBottom: "1.5rem",
           }}
         >
-          HnS Agency adalah agensi yang menyediakan layanan talent host
-          profesional untuk kebutuhan live online shop, e-commerce dan platform
-          digital lainnya. Kami menghubungkan klien dari berbagai industri
-          dengan talent host yang memiliki keterampilan komunikasi luar biasa,
-          mampu berinteraksi dengan audiens, dan memasarkan produk dengan cara
-          yang menarik.
+          HnS Agency adalah partner terbaik untuk bisnis yang ingin sukses di dunia Live Sale! 
+          Kami menyediakan talent host profesional yang siap membawa sesi live shopping Anda ke level berikutnya.
+          Dengan keterampilan komunikasi yang luar biasa, host kami mampu menarik perhatian audiens,
+          membangun interaksi yang seru, menarik dan up-to-date, mempromosikan produk sesuai dengan brand dan target audiens
+          di berbagai platform.
         </p>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6rem",
             color: "black",
             lineHeight: "1.5",
             marginBottom: "1.5rem",
           }}
         >
-          Dengan fokus pada kualitas dan keahlian, kami menyediakan talent host
-          yang telah terlatih untuk meningkatkan engagement audiens,
-          memperkenalkan produk, dan memberikan pengalaman belanja online yang
-          menyenangkan. Agensi kami membantu bisnis untuk tumbuh melalui sesi
-          live streaming yang profesional, efisien dan efektif.
+          Kami percaya bahwa live streaming bukan sekadar jualan, 
+          tapi juga tentang pengalaman belanja yang engaging dan menyenangkan!
+          Itulah kenapa semua host di HnS Agency telah melalui pelatihan intensif,
+          sehingga mampu membawakan sesi live yang up-to-date, dinamis, interaktif, dan efektif 
+          dalam memperkenalkan produk serta menjaga engagement audiens
         </p>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6rem",
             color: "black",
             lineHeight: "1.5",
           }}
         >
-          Kami menawarkan berbagai pilihan talent host sesuai dengan kriteria
-          dan kebutuhan klien, mulai dari fashion, kecantikan, elektronik, dan
-          lainnya. Setiap talent kami dipilih dengan seleksi ketat untuk
-          memastikan mereka dapat mampu menyesuaikan dengan kebutuhan dan
-          harapan klien.
+          Apapun industri Anda—fashion, kecantikan, elektronik, atau lainnya—kami 
+          punya host yang tepat sesuai kebutuhan brand Anda! Dengan seleksi ketat, 
+          kami memastikan setiap talent dapat menyesuaikan gaya komunikasi dengan target pasar, 
+          selalu up-to-date dan menyesuaikan dengan tren live yang sedang berkembang
+          sehingga live shopping Anda lebih profesional, efisien, dan menghasilkan interaksi yang tinggi 
+          serta meningkatkan peluang konversi penjualan secara maksimal.
         </p>
       </div>
     </section>
