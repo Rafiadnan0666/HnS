@@ -4,15 +4,15 @@ const Whyus = () => {
   return (
     <div className="font-poppins bg-white text-black">
       {/* Visi Section */}
-      <section className="min-h-screen md:h-10 lg:md:h-10 sm:md:h-10 flex flex-col justify-center items-start px-6 md:px-16 relative bg-white">
+      <section className="min-h-0.5 md:h-10 lg:md:h-10 sm:md:h-10 flex flex-col justify-center items-start px-6 md:px-16 relative bg-white">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4">VISI</h1>
         <p className="text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-3xl">
-          Menjadi mitra terdepan dalam menyediakan layanan host live streaming yang profesional, dan terpercaya, guna mendukung interaksi, promosi, dan penjualan bagi pelaku online shop dan e-commerce.
+          Menjadi mitra terdepan dalam menyediakan layanan host live yang profesional, dan terpercaya, guna mendukung interaksi, promosi, dan penjualan bagi pelaku online shop dan e-commerce.
         </p>
       </section>
 
       {/* Misi Section */}
-      <section className="min-h-screen flex flex-col md:h-10 lg:md:h-10 sm:md:h-10 justify-center items-start px-6 md:px-16 relative bg-white">
+      <section className="min-h-0.5 flex flex-col md:h-10 lg:md:h-10 sm:md:h-10 justify-center items-start px-6 md:px-16 relative bg-white">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4">MISI</h1>
         <p className="text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-3xl">
           Memberikan layanan dengan harga yang kompetitif tanpa mengorbankan kualitas, sehingga dapat diakses oleh berbagai pelaku bisnis.
@@ -20,7 +20,7 @@ const Whyus = () => {
       </section>
 
       {/* Layanan Kami Section */}
-      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 bg-white" >
+      <section className="min-h-0.5 flex flex-col justify-center items-start px-6 md:px-16 bg-white" >
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4">LAYANAN KAMI</h1>
         <p className="text-lg font-semibold">HOSTNSTREAM@GMAIL.COM | 0822-2778-2062</p>
 
@@ -49,7 +49,7 @@ const Whyus = () => {
       </section>
 
       {/* Siapa yang Cocok Menggunakan Jasa Kami */}
-      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 bg-white">
+      <section className="min-h-0.5 flex flex-col justify-center items-start px-6 md:px-16 bg-white">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 " style={{
           lineHeight:"5rem"
         }}>SIAPA YANG COCOK MENGGUNAKAN JASA KAMI?</h1>
