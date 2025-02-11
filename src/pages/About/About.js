@@ -50,7 +50,7 @@ const About = () => {
         </h3>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6",
             color: "black",
             lineHeight: "1.5",
             marginBottom: "1.5rem",
@@ -65,7 +65,7 @@ const About = () => {
         </p>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6",
             color: "black",
             lineHeight: "1.5",
             marginBottom: "1.5rem",
@@ -79,7 +79,7 @@ const About = () => {
         </p>
         <p
           style={{
-            fontSize: "0.875rem",
+            fontSize: "0.6",
             color: "black",
             lineHeight: "1.5",
           }}

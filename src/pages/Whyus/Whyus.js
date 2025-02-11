@@ -20,23 +20,29 @@ const Whyus = () => {
       </section>
 
       {/* Layanan Kami Section */}
-      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 bg-white">
+      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-16 bg-white" >
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4">LAYANAN KAMI</h1>
         <p className="text-lg font-semibold">HOSTNSTREAM@GMAIL.COM | 0822-2778-2062</p>
 
         <div className="mt-6 space-y-6">
           <div>
-            <h2 className="text-2xl font-bold">PENYEDIA TALENT HOST LIVE OLSHOP</h2>
+            <h2 className="text-2xl font-bold" style={{
+        fontStyle:"Poppins"
+      }}>PENYEDIA TALENT HOST LIVE OLSHOP</h2>
             <p className="text-base">Host berpengalaman & profesional untuk berbagai platform seperti Shopee Live, Tiktok Live, Lazada Live, dll.</p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold">PELATIHAN HOST</h2>
+            <h2 className="text-2xl font-bold" style={{
+        fontStyle:"Poppins"
+      }}>PELATIHAN HOST</h2>
             <p className="text-base">Pelatihan rutin dan terstruktur untuk host, menjamin kualitas dan keterampilan host yang terus berkembang dan selalu up-to-date dengan tren live streaming.</p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold">MANAJEMEN JADWAL HOST</h2>
+            <h2 className="text-2xl font-bold" style={{
+        fontStyle:"Poppins"
+      }}>MANAJEMEN JADWAL HOST</h2>
             <p className="text-base">Layanan penjadwalan dan koordinasi untuk memastikan live streaming berjalan lancar.</p>
           </div>
         </div>
