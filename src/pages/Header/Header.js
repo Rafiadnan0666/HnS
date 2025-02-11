@@ -38,7 +38,7 @@ const Hero = () => {
           transition: "all 0.3s ease-in-out",
         }}
       >
-        Layanan Penyedia Talent Host Live Streaming untuk Kebutuhan Live Online Shop
+        Layanan Penyedia Host Live Sale untuk Live Online Shop dan E-Commerce
       </p>
       <button
         style={{
@@ -54,7 +54,7 @@ const Hero = () => {
         }}
         onClick={() =>
           window.location.assign(
-            "https://api.whatsapp.com/send/?phone=+6282227782062&text=Halo, HnS Agency! Saya tertarik menggunakan jasa talent host dari HnS Agency untuk kebutuhan live streaming. Apakah saya bisa mendapatkan informasi lebih lanjut?&type=phone_number&app_absent=0"
+            "https://api.whatsapp.com/send/?phone=+6282227782062&text=Halo, HnS Agency. Saya tertarik menggunakan jasa Anda dan ingin mendapatkan informasi lebih lanjut. Bisa dibantu??&type=phone_number&app_absent=0"
           )
         }
       >
