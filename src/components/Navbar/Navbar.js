@@ -61,8 +61,8 @@ const Navbar = () => {
               sx={{
                 fontFamily: "Audiowide",
                 fontWeight: 500,
-                letterSpacing: ".3rem",
-                color: "white",
+                letterSpacing: "1.5rem",
+                color: "black",
                 textDecoration: "none",
                 mr: 2,
               }}

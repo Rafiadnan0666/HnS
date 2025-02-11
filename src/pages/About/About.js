@@ -26,7 +26,7 @@ const About = () => {
           background: "transparent",
         }}
       >
-        <h2
+        <h2 className="md:text-left sm:text-left lg:text-left"
           style={{
             fontSize: "1rem",
             color: "#888",
@@ -36,7 +36,7 @@ const About = () => {
         >
           Tentang Kami
         </h2>
-        <h3
+        <h3 className="md:text-left sm:text-left lg:text-left"
           style={{
             fontSize: "3rem",
             fontFamily: "Bebas Neue, sans-serif",
@@ -48,7 +48,7 @@ const About = () => {
         >
           HOST ANDAL <br /> ANDA <br /> CUAN TOTAL
         </h3>
-        <p
+        <p className="md:text-left sm:text-left lg:text-left" 
           style={{
             fontSize: "0.6rem",
             color: "black",
@@ -62,7 +62,7 @@ const About = () => {
           membangun interaksi yang seru, menarik dan up-to-date, mempromosikan produk sesuai dengan brand dan target audiens
           di berbagai platform.
         </p>
-        <p
+        <p className="md:text-left sm:text-left lg:text-left"
           style={{
             fontSize: "0.6rem",
             color: "black",
@@ -76,7 +76,7 @@ const About = () => {
           sehingga mampu membawakan sesi live yang up-to-date, dinamis, interaktif, dan efektif 
           dalam memperkenalkan produk serta menjaga engagement audiens
         </p>
-        <p
+        <p className="md:text-left sm:text-left lg:text-left"
           style={{
             fontSize: "0.6rem",
             color: "black",
